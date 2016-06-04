@@ -14,7 +14,7 @@ Meteor’s ecmascript package compiles this standard down to regular JavaScript 
 * Autoprefixer - Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
 * I18n - Package that provides a comprehensive [i18n](http://www.i18nguy.com/origini18n.html) solution
 * jQuery - Meteor default include
-* ESLint - "Code linting" is the process of automatically checking your code for common errors or style problems. Verifies [Airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) styleguide, Meteor, React
+* ESLint - "Code linting" is the process of automatically checking your code for common errors or style problems. Verifies [Airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), Meteor, React styleguide
 
 ## Quickstart
 
@@ -32,6 +32,12 @@ Run Meteor server on: http://localhost:3000/
 
 ```bash
 meteor
+```
+
+Check your code with ESLint:
+
+```bash
+meteor npm run lint
 ```
 
 ## License
