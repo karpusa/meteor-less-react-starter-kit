@@ -4,7 +4,7 @@ Meteor.js starter kit with with react and less. Usefull for fast run development
 Meteor support ECMAScript, the language standard on which every browser’s JavaScript implementation is based, has moved to yearly standards releases.
 Meteor’s ecmascript package compiles this standard down to regular JavaScript that all browsers can understand using the popular Babel compiler.
 
-## starter kit include
+## Starter kit include
 * Meteor - Read the [guide](http://guide.meteor.com)
 * FlowRouter - Carefully Designed Client Side Router for Meteor.
 * DocHead - DocHead is an isomorphic way to manipulate document.head for Meteor apps. Set title, meta and etc.
@@ -18,9 +18,9 @@ Meteor’s ecmascript package compiles this standard down to regular JavaScript 
 
 ## Quickstart
 
-Read the Meteor [guide quickstart](http://guide.meteor.com/index.html#quickstart)
+Read the Meteor [guide quickstart](http://guide.meteor.com/index.html#quickstart).
 
-Install [Node.js](https://nodejs.org/en/)
+Install [Node.js](https://nodejs.org/en/).
 
 Run locally - npm start - install nodejs and bower dependencies.
 
