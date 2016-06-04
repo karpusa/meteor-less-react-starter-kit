@@ -1,0 +1,12 @@
+{
+  "name": "meteor-less-react-starter-kit",
+  "description": "Meteor starter kit with react and less",
+  "authors": [
+    "Vitalijs Karpusa <vkarpusha@gmail.com> (http://www.karpusa.lv)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "normalize-css": "^4.1.1"
+  }
+}

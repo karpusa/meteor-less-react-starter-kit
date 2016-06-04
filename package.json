@@ -1,0 +1,73 @@
+{
+  "name": "meteor-less-react-starter-kit",
+  "description": "Meteor starter kit with react and less",
+  "version": "0.3.0",
+  "author": "Vitalijs Karpusa <vkarpusha@gmail.com> (http://www.karpusa.lv)",
+  "repository": "karpusa/meteor-less-react-starter-kit",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm install && bower install",
+    "lint": "eslint .",
+    "pretest": "npm run lint --silent"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-mounter": "^1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-meteor": "^3.6.0",
+    "eslint-plugin-react": "^5.1.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          "last 2 versions",
+          "ie 10",
+          "iOS >= 6"
+        ]
+      }
+    }
+  },
+  "eslintConfig": {
+    "plugins": [
+      "meteor"
+    ],
+    "extends": [
+      "airbnb",
+      "plugin:meteor/recommended"
+    ],
+    "rules": {
+      "no-underscore-dangle": [
+        "error",
+        {
+          "allow": [
+            "_",
+            "__"
+          ]
+        }
+      ],
+      "meteor/eventmap-params": [
+        2,
+        {
+          "templateInstanceParamName": "instance"
+        }
+      ],
+      "import/no-unresolved": [
+        2,
+        {
+          "ignore": [
+            "^meteor/"
+          ]
+        }
+      ]
+    }
+  }
+}
