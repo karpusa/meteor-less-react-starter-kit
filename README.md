@@ -5,7 +5,7 @@ Meteor support ECMAScript, the language standard on which every browser’s Java
 Meteor’s ecmascript package compiles this standard down to regular JavaScript that all browsers can understand using the popular Babel compiler.
 
 ## Starter kit include
-* Meteor - Read the [guide](http://guide.meteor.com)
+* Meteor v1.3.2.4  - Read the [guide](http://guide.meteor.com)
 * FlowRouter - Carefully Designed Client Side Router for Meteor.
 * DocHead - DocHead is an isomorphic way to manipulate document.head for Meteor apps. Set title, meta and etc.
 * React - Javascript library for building interface
