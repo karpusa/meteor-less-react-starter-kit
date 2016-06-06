@@ -1,5 +1,5 @@
 # meteor-less-react-starter-kit
-Meteor.js starter kit with with react and less. Usefull for fast run development environment.
+Meteor.js starter kit with react and less. Usefull for fast run development environment.
 
 Meteor support ECMAScript, the language standard on which every browser’s JavaScript implementation is based, has moved to yearly standards releases.
 Meteor’s ecmascript package compiles this standard down to regular JavaScript that all browsers can understand using the popular Babel compiler.
