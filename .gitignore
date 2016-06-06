@@ -1,2 +1,4 @@
-node_modules/
-bower_components/
+node_modules/*
+!node_modules/.gitkeep
+bower_components/*
+!bower_components/.gitkeep
