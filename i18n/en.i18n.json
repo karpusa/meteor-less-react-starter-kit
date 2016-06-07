@@ -1,6 +1,14 @@
 {
     "mainpage": {
-        "metatitle": "Lorem Ipsum",
-        "title": "Lorem Ipsum"
+        "metatitle": "Meteor.js starter kit with react and less",
+        "title": "Meteor.js starter kit"
+    },
+    "about": {
+        "metatitle": "About",
+        "title": "About"
+    },
+    "contact": {
+        "metatitle": "Contact",
+        "title": "Contact"
     }
 }

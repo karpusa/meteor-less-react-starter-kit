@@ -1,7 +1,7 @@
 {
   "name": "meteor-less-react-starter-kit",
   "description": "Meteor starter kit with react and less",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Vitalijs Karpusa <vkarpusha@gmail.com> (http://www.karpusa.lv)",
   "repository": "karpusa/meteor-less-react-starter-kit",
   "license": "MIT",
