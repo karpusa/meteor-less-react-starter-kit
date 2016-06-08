@@ -11,13 +11,18 @@ body {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1240px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .header {
     padding: 20px 0;
     background-color: #1b1c1d;
+}
+
+.footer {
+    border-top: 1px solid #1b1c1d;
 }
 
 .is-hide {
@@ -75,10 +80,8 @@ body {
 }
 */
 
-@media @MqTablet {
-
-}
-
-@media @MqDesktop1 {
-
+@media @MqDesktop2 {
+    .container {
+        padding: 0;
+    }
 }
